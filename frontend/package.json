@@ -3,11 +3,16 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@cthit/react-digit-components": "^1.0.3-rc.0",
+        "axios": "^0.21.1",
         "prop-types": "^15.7.2",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
+        "react-router-dom": "^5.2.0",
         "react-scripts": "4.0.3",
-        "web-vitals": "^1.1.1"
+        "styled-components": "^5.2.1",
+        "web-vitals": "^1.1.1",
+        "yup": "^0.32.9"
     },
     "scripts": {
         "start": "BROWSER=none react-scripts start",

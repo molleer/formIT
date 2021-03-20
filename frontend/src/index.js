@@ -2,10 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App.jsx";
 import reportWebVitals from "./reportWebVitals";
+import { DigitProviders } from "@cthit/react-digit-components";
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <DigitProviders>
+            <App />
+        </DigitProviders>
     </React.StrictMode>,
     document.getElementById("root")
 );

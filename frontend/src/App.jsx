@@ -1,5 +1,11 @@
+import Form from "./common/form";
+
 const App = () => {
-    return <div>Hello</div>;
+    return (
+        <div>
+            <Form />
+        </div>
+    );
 };
 
 export default App;
